@@ -1,0 +1,21 @@
+{
+  "name": "babel-plugin-demo",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "compile": "babel src/ -d build/"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "MIT",
+  "devDependencies": {
+    "@babel/cli": "^7.13.16",
+    "@babel/code-frame": "^7.12.13",
+    "@babel/core": "^7.14.2",
+    "@babel/helpers": "^7.14.0",
+    "@babel/template": "^7.12.13",
+    "@babel/traverse": "^7.14.2",
+    "@babel/types": "^7.14.2"
+  }
+}
